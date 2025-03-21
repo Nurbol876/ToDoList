@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  box-sizing: border-box;
+  transition: all 0.6s;
+}
+td{
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+}
+.red{ color: red; padding: 5px 10px}
+.green{color: green; padding: 5px 10px}
+.App{
+  height: 100vh;
+  padding-top: 150px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(231,34,56,1) 41%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+}
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+input{
+  outline: none;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+
+}
+button{
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  &:hover{
+    color: red;
+    background: #fff;
+  }
+
+}
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input[type="search"]{
+  margin: 30px 0;
+}
