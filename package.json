@@ -1,6 +1,7 @@
 {
   "name": "redux",
   "version": "0.1.0",
+  "homepage": "https://nurbol876.github.io/ToDoList/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
@@ -10,6 +11,7 @@
     "axios": "^1.6.2",
     "concurrently": "^8.2.2",
     "firebase": "11.1.0",
+    "gh-pages": "^6.3.0",
     "i18next": "^23.4.1",
     "i18next-browser-languagedetector": "^7.1.0",
     "i18next-http-backend": "^2.2.1",
@@ -35,7 +37,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
