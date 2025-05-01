@@ -81,3 +81,81 @@ form{
 input[type="search"]{
   margin: 30px 0;
 }
+
+@media (max-width: 400px) {
+  td{
+    border: 1px solid #fff;
+    padding: 3.75px 7.5px;
+    font-size: 7.5px;
+    text-align: center;
+  }
+
+  .red{ color: red; padding: 1.875px 3.75px}
+  .green{color: green; padding: 1.875px 3.75px}
+  .App{
+    min-height: 100vh;
+    height: 100%;
+    padding: 150px 0;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(231,34,56,1) 41%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+  }
+  .container{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  input{
+    outline: none;
+    border: 1px solid #fff;
+    padding: 3.75px 7.5px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 7.5px;
+    background: transparent;
+  }
+
+  input::placeholder {
+    color: #fff;
+    font-size: 7.5px;
+  }
+  h2{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+  }
+  button{
+    padding: 3.75px 7.5px;
+    color: #fff;
+    font-size: 7.5px;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    &:hover{
+      color: red;
+      background: #fff;
+    }
+
+  }
+  input[type="checkbox"]{
+    width: 7.5px;
+    height: 7.5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  input[type="search"]{
+    margin: 30px 0;
+  }
+
+}
